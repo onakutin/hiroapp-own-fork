@@ -62,7 +62,7 @@ const Users = () => {
 								{user.first_name} {user.last_name}
 							</span>
 						</Link>
-						<span>Position: {user.position?.name}</span>
+						<span>Positions: {user.position?.name}</span>
 						<span>Department: {user.position?.department?.name}</span>
 					</div>
 				))}
